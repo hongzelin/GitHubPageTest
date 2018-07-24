@@ -1,0 +1,17 @@
+export const INCREMENT = "INCREMENT";
+export const DECREMENT = "DECREMENT";
+// user
+export const FETCH_USER_SUCCESS = "FETCH_USER_SUCCESS";
+export const FETCH_USER_REQUEST = "FETCH_USER_REQUEST";
+export const FETCH_USER_FAILURE = "FETCH_USER_FAILURE";
+
+// user promise
+export const LOAD_USER = "LOAD_USER";
+export const LOAD_USER_FULFILLED = "LOAD_USER_FULFILLED";
+export const LOAD_USER_PENDING = "LOAD_USER_PENDING";
+export const LOAD_USER_REJECTED = "LOAD_USER_REJECTED";
+
+
+export const ADD_REMINDER = "ADD_REMINDER";
+export const DETELE_REMINDER = "DETELE_REMINDER";
+export const CLEAR_REMINDER = "CLEAR_REMINDER";
